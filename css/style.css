@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  text-decoration: non;
+  margin-right: 2rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #0d0e23;
+}
+
+.nav-links {
+  padding: 0.5rem;
+}
+
+#container {
+  height: 100vh;
+  background: url(../images/cuisine-hero.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+  border: 3px red solid;
+}
