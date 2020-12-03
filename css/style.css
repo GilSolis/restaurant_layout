@@ -76,11 +76,81 @@ input {
   margin: 2rem 0;
   width: 20%;
   border: 1px solid #ff8630;
+  background-color: #ff8630;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 .social-text {
   padding-right: 1rem;
 }
+/* about styling  */
+
+.about {
+  background: url(../images/cuisine-about.png) no-repeat;
+  height: 100vh;
+  background-position: right;
+  background-size: cover;
+}
+
+.about-container {
+  width: 60%;
+  padding: 11rem;
+  margin-left: 30%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ff8630;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.about-btn {
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 0;
+  margin: 2rem 0;
+  width: 25%;
+  border: 1px solid #ff8630;
+  background-color: #ff8630;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* menu section styling */
+.menu {
+  background: #e0dfdf;
+}
+.menu-heading {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 6rem;
+}
+
+.menu-item {
+  min-width: 200px;
+  max-width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  background: url(../images/menuContent.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
 @media (max-width: 1020px) {
   h1 {
     font-size: 6rem;
